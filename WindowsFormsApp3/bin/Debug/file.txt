@@ -1,0 +1,7 @@
+Pizza 2000
+Sprite 500
+Kraby 1000
+Pea soup 1000
+Ice cream 200
+
+Total: 4700
