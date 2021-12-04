@@ -39,6 +39,8 @@
 			this.задание1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.задние2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.калькуляторToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.задание4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.задание5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -133,7 +135,9 @@
 			this.лаба2ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.задание1ToolStripMenuItem,
             this.задние2ToolStripMenuItem,
-            this.калькуляторToolStripMenuItem});
+            this.калькуляторToolStripMenuItem,
+            this.задание4ToolStripMenuItem,
+            this.задание5ToolStripMenuItem});
 			this.лаба2ToolStripMenuItem.Name = "лаба2ToolStripMenuItem";
 			this.лаба2ToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
 			this.лаба2ToolStripMenuItem.Text = "Лаба 2";
@@ -158,6 +162,20 @@
 			this.калькуляторToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
 			this.калькуляторToolStripMenuItem.Text = "Калькулятор";
 			this.калькуляторToolStripMenuItem.Click += new System.EventHandler(this.калькуляторToolStripMenuItem_Click);
+			// 
+			// задание4ToolStripMenuItem
+			// 
+			this.задание4ToolStripMenuItem.Name = "задание4ToolStripMenuItem";
+			this.задание4ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+			this.задание4ToolStripMenuItem.Text = "Задание 4";
+			this.задание4ToolStripMenuItem.Click += new System.EventHandler(this.задание4ToolStripMenuItem_Click);
+			// 
+			// задание5ToolStripMenuItem
+			// 
+			this.задание5ToolStripMenuItem.Name = "задание5ToolStripMenuItem";
+			this.задание5ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+			this.задание5ToolStripMenuItem.Text = "Задание 5";
+			this.задание5ToolStripMenuItem.Click += new System.EventHandler(this.задание5ToolStripMenuItem_Click);
 			// 
 			// Form1
 			// 
@@ -195,6 +213,8 @@
 		private System.Windows.Forms.ToolStripMenuItem задание1ToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem задние2ToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem калькуляторToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem задание4ToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem задание5ToolStripMenuItem;
 	}
 }
 
